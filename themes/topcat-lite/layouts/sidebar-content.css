@@ -1,0 +1,56 @@
+/*
+Theme Name: topcat
+Layout: Content-Sidebar
+*/
+
+/* mobile styles */
+@media only screen and (max-width:480px) {
+}
+
+/*tablet styles*/
+@media only screen and (min-width:481px) and (max-width:768px) {
+}
+
+@media only screen and (max-width:768px) {
+}
+/*desktop styles*/
+@media only screen and (min-width:769px) {
+
+    .content-area {
+        float: right;
+        width: 70%;
+    }
+
+    .site-branding{
+        position: relative;
+    }
+    .site-description{
+        display: inline;
+        padding: 0;
+        float: left;
+        margin: 0;
+    }
+
+    .social-menu{
+        display: inline;
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        transform: translateY(-50%);
+    }
+
+    .menu li {
+        text-align: center;
+    }
+
+    .site-footer .widget{
+        width: 24%;
+    }
+
+    .site-content .widget-area {
+        float: left;
+        width: 30%;
+        padding-left: 1rem;
+        background: none repeat scroll 0 0 #f8f8f8;
+    }
+}

@@ -1,0 +1,87 @@
+version 1.0.19
+1. Tested with WordPress 5.0.2
+2. Fixed logo upload and issue.
+
+version 1.0.18
+1. Added featured image support for pages
+
+version 1.0.17
+1. fixed menu look on Ipad's Portait view
+2. Added title="Toronto WordPress Developer - Dejan Markovic" to my link in footer
+
+version 1.0.16
+1. implemented Kirki framework
+2. implemented functionality with which user nac disable "copyright" and also "Powered by" that appear in footer
+ - In order to do that user needs to go to Customizing/General options/General and click on desired checkbox
+
+version 1.0.15
+1. fix for copyright in footer (reformatted and added a year).
+
+version 1.0.14
+1. added left sidebar template
+2. added full-width template
+
+version 1.0.13
+1. fixed posted on issue where it was displaying both "date created" and "date updated"
+
+version 1.0.12
+1. deleted the tag accessibility-ready from style.css (which was there by mistake)
+
+version 1.0.11
+1. added font awesome icon for rss feed in Social Menu in style.css. NOTE: it requires word "feed" in url
+2. added support for Title tags in functions.php
+3. Updated tags and description for theme in style.css
+
+version 1.0.10
+1. added unminified files fro modernizer.custom.js and superfish.js
+
+version 1.0.9
+1. deleted the 4th parameter on _n_noop
+
+version 1.0.8
+1. rebuilt the pot file
+
+version 1.0.7
+1. Fixed Language issue(s)in functions.php
+2. Fixed  Text domain missing for _n_noop functions.
+
+version 1.0.6
+1. added code for social menu icon for wordpress.org
+2. added instructions how to open social menu items in new window
+3. In style.css, Text Domain is now topcat-lite.
+4. Theme URI fixed
+5. replaced tgmpa with topcat-lite domain.
+6. If logo is not uploaded, site title and tagline are displayed.
+
+version 1.0.5
+1. upgraded the license info for background image
+2. changed the textdomain to topcat-lite
+3. POT file renamed to topcat-lite.pot.
+4. upgraded all files with new theme slug topcat_lite
+5. Removed the html5.js inclusion from header.php
+6. Moved topcat_render_title stuff from header.php file and placed it in functions.php.
+7. Deleted the commented out implementation of footer_menu.
+8.  Image handle large-thumbnail prefixed with theme slug
+9. Mentioned license attribute for Google fonts in readme.txt file.
+10. deleted the the implementation of function topcat_custom_header_fonts.
+11. Removed rtl.css.
+12. Removed demo XML file.
+13. Logo is now disabled by default. I have added the instructions how to load it in readme file.
+
+Changelog Since version 1.0.4
+1. added add_theme_support( "title-tag" )
+2. fixed theme URI
+3. Updated license information for bundled resources like fonts, javascripts, images, etc.
+4. Mentioning license information and full image URL of images used in theme.
+5. Bundled license's are GPL compatible
+6. All strings are now translatable.
+7. Updated .pot file
+8. Using our text domain for displaying every string.
+9. Function topcat_lite_setup is hooked to after_setup_theme hook.
+10. Prefixed  prefix theme functions, classes, global variables, image size name, script and style handles, etc with theme slug.
+11. Using the correct handling of front page content.
+12. removed unnecessary code comments.
+13. Took out  Tweet Old Custom Post and HYPE Social Buffer from TGM implementation
+14. Created changelog.txt
+15. Removed unnecessary files. Eg: README.md, layout folder, less and scss of Font Awesome., install folder
+16. Recreated the .pot file
